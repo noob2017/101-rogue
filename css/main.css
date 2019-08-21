@@ -1,0 +1,64 @@
+/***** BASE STYLES *****/
+
+body {
+	color: #2b2b2b;
+	/***THIS SEEMS TO BE OVERRIDING OTHER CHOICES. REMOVED IT. NOT SURE WHERE IT CAME FROM IN THE FIRST PLACE?!***
+	font-family: 'Source Sans Pro', sans-serif;  */
+
+	/***DOES THIS BELONG HERE? ADDED IT TO SEE WHAT IT DOES. DOESN'T SEEM TO WORK.
+	font-family: font-family: 'Lora', serif;  */
+}
+
+
+/***** IS THIS RIGHT??? *****
+h1, h2, p {
+	font-family: 'Lora', serif;
+}
+
+/****************************/
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: font-family: 'Lora', serif;
+    font-size: 36px;
+    /*padding-left:***WHAT TO DO WITH THIS???*/
+}
+ 
+#about p {
+    /***ADDED THIS BECAUSE THE FONT WASTN'T RIGHT WITHOUT IT*/
+    font-family: font-family: 'Source Sans Pro', sans-serif;
+    /*****/
+    font-size: 21px;
+    color: #7F7F7F;
+    line-height: 40px;
+    padding-left:
+    padding-right:
+}
