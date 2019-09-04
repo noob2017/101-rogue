@@ -65,6 +65,7 @@ h1, h2, p {
 }
 
 /***** WORK *****/
+/*** IMG, H3, AND P ARE SQUISHED TO TOP OF SECTION. WHY? ***/
 
 #work {
     background-color: #F9CEB7;
@@ -72,7 +73,8 @@ h1, h2, p {
 }
 
 #work .full-width {
-    padding: 115px 0;
+    padding: 115px 0; /***THIS WAS PROVIDED IN LESSON, BUT NOT SURE WHAT IT DOES***/
+    /* padding: 30px 50px 30px 50px; */ /***THIS DIDN'T CHANGE ANYTHING AT ALL***/
 }
 
 #work img {
