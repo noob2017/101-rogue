@@ -1,11 +1,4 @@
-/*EDIT TO TEST GIT VERSION CONTROL*/
-/*EDIT 2 TO TEST MERGE CONFLICTS*/
-
-/*EDIT 3 ON EXPERIMENTS BRANCH TO TEST MERGE*/
-
-
 /***** BASE STYLES *****/
-/*EDIT TO TEST MERGE CONFLICTS*/
 
 body {
 	color: #2b2b2b;
@@ -17,7 +10,7 @@ body {
 }
 
 
-/***** IS THIS RIGHT??? *****
+/***** TEST - REMOVE *****
 h1, h2, p {
 	font-family: 'Lora', serif;
 }
@@ -57,7 +50,7 @@ h1, h2, p {
     color: #2b2b2b; /***DO I EVEN NEED THIS SINCE IT'S IN THE BODY CSS?***/
     font-family:'Lora', serif;
     font-size: 36px;
-    /*padding-left:***WHAT TO DO WITH THIS? NOT PROVIDED IN THE ANNOTATED***/
+    padding-left: 50px;
 }
  
 #about p {
@@ -67,6 +60,8 @@ h1, h2, p {
     font-size: 21px;
     color: #7F7F7F;
     line-height: 40px;
-    padding-left:
-    padding-right:
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
+/***** WORK *****/
