@@ -5,12 +5,12 @@ body {
 	/***THIS SEEMS TO BE OVERRIDING OTHER CHOICES, BUT IT CAME FROM STARTER CODE IN LESSONS.***/
 	font-family: 'Source Sans Pro', sans-serif;
 
-	/***DOES THIS BELONG HERE? ADDED IT TO SEE WHAT IT DOES. DOESN'T SEEM TO WORK.
+	/***DOES THIS BELONG HERE? ADDED IT TO SEE WHAT IT DOES. DOESN'T SEEM TO WORK. REMOVE IF FIXED***
 	font-family: font-family: 'Lora', serif;  */
 }
 
 
-/***** TEST - REMOVE *****
+/***** TEST - REMOVE IF FIXED *****
 h1, h2, p {
 	font-family: 'Lora', serif;
 }
@@ -24,20 +24,20 @@ h1, h2, p {
 /***** GRID *****/
 
 .full-width {
-    width: 1200px;
     margin: 0 auto;
+    width: 1200px;
 }
 
 .half-width {
     float: left;
-    width: 600px;
     margin: 0 auto;
+    width: 600px;
 }
 
 .third-width {
     float: left;
-    width: 400px;
     margin: 0 auto;
+    width: 400px;
 }
 
 /***** ABOUT *****/
@@ -54,14 +54,41 @@ h1, h2, p {
 }
  
 #about p {
-    /***ADDED THIS BECAUSE THE FONT WASTN'T RIGHT WITHOUT IT***
+    /***ADDED THIS BECAUSE THE FONT WASTN'T RIGHT WITHOUT IT - REMOVE IF FIXED***
     font-family: font-family: 'Source Sans Pro', sans-serif;*/
     /*****/
-    font-size: 21px;
     color: #7F7F7F;
+    font-size: 21px;
     line-height: 40px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 /***** WORK *****/
+
+#work {
+    background-color: #F9CEB7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 400px;
+    margin: 0 auto;
+}
+ 
+#work p {
+    font-family:'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
