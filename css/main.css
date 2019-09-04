@@ -79,13 +79,15 @@ h1, h2, p {
 
 #work img {
     padding-bottom: 30px;
+    padding-top: 100px; /***TESTING THIS TO ADD SPACE***/
 }
 
 #work h3 {
     font-size: 24px;
     line-height: 32px;
     width: 400px;
-    margin: 0 auto;
+    /*margin: 0 auto; /***THIS WAS PROVIDED IN LESSON, BUT SEEMS TO SQUISH TO LEFT***/
+    margin: 0px;
 }
  
 #work p {
