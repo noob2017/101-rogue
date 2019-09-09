@@ -87,8 +87,8 @@ h1, h2, p {
 #work h3 {
     font-size: 24px;
     line-height: 32px;
-    width: 400px;
     margin: 0 auto;
+    width: 400px; 
 }
  
 #work p {
@@ -109,6 +109,49 @@ h1, h2, p {
 }
 
 #contact img#contact-img {
-    margin-left: 25px;
     border: 12px solid #ffffff;
+    margin-left: 25px;   
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    margin: 0 auto; /***ADDED - DOES NOTHING...?***/
+    padding: 0 10px 0 115px;
+}
+
+
+/***STEP 5***/
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-size: 29px;
+    font-weight: bold; /***NECESSARY? IT WAS ALREADY BOLD...?***/
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    color: #C49075;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact p { /***ADDED THIS BECAUSE THE EMAIL ADDRESS WON'T LINE UP...?***/
+    margin: 0 auto;
 }
