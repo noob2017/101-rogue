@@ -33,7 +33,8 @@ body {
 header {
     height: 800px;
     background-image: url("img/hero.png"); /***DOESN'T LOOK RIGHT; GREY COLOR TO LEFT OF IMAGE***/
-    background-color: #EBEBEB;
+    background-color: #EBEBEB; /***READ ON https://www.w3schools.com/cssref/pr_background-image.asp THAT THIS SHOULD ALWAYS BE SPECIFIED 
+    IN CASE IMAGE DOESN'T DISPLAY***/
     background-size: cover;
 }
 
