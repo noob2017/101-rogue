@@ -41,9 +41,16 @@ h1, h2, p {
 }
 
 /***** ABOUT *****/
+/***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
 
 #about .full-width {
+    margin: 100px auto;
     padding: 80px 0;
+}
+
+#about .half-width {
+    margin: 0 auto;
+    /*padding: 20px 0; */
 }
 
 #about h2 {
@@ -54,9 +61,6 @@ h1, h2, p {
 }
  
 #about p {
-    /***ADDED THIS BECAUSE THE FONT WASTN'T RIGHT WITHOUT IT - REMOVE IF FIXED***
-    font-family: font-family: 'Source Sans Pro', sans-serif;*/
-    /*****/
     color: #7F7F7F;
     font-size: 21px;
     line-height: 40px;
@@ -65,7 +69,7 @@ h1, h2, p {
 }
 
 /***** WORK *****/
-/*** IMG, H3, AND P ARE SQUISHED TO TOP OF SECTION. WHY? ***/
+/***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
 
 #work {
     background-color: #F9CEB7;
@@ -73,21 +77,18 @@ h1, h2, p {
 }
 
 #work .full-width {
-    padding: 115px 0; /***THIS WAS PROVIDED IN LESSON, BUT NOT SURE WHAT IT DOES***/
-    /* padding: 30px 50px 30px 50px; */ /***THIS DIDN'T CHANGE ANYTHING AT ALL***/
+    padding: 115px 0;
 }
 
 #work img {
     padding-bottom: 30px;
-    padding-top: 100px; /***TESTING THIS TO ADD SPACE***/
 }
 
 #work h3 {
     font-size: 24px;
     line-height: 32px;
     width: 400px;
-    /*margin: 0 auto; /***THIS WAS PROVIDED IN LESSON, BUT SEEMS TO SQUISH TO LEFT***/
-    margin: 0px;
+    margin: 0 auto;
 }
  
 #work p {
@@ -95,4 +96,19 @@ h1, h2, p {
     font-size: 18px;
     line-height: 30px;
     padding: 0 50px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #EBEBEB;
+}   
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
 }
