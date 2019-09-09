@@ -118,7 +118,8 @@ h1, h2, p {
 }
 
 #contact #envelope {
-    margin: 0 auto; /***ADDED - DOES NOTHING...?***/
+    /*margin: auto; /***TRIED 0 AUTO, AUTO, 0 - DOES NOTHING...?***/
+    /*float: none; ***DIDN'T CHANGE ANYTHING***/
     padding: 0 10px 0 115px;
 }
 
@@ -147,11 +148,30 @@ h1, h2, p {
 
 #contact a {
     color: #C49075;
+    /*float: ; /***FLOAT LEFT, NONE, AUTO DID NOT WORK AT ALL! MOVED EVERYTHING! */
     font-size: 28px;
     font-weight: bold;
+    margin: 0;
     text-decoration: none;
 }
 
-#contact p { /***ADDED THIS BECAUSE THE EMAIL ADDRESS WON'T LINE UP...?***/
+/***
+#contact p { 
     margin: 0 auto;
+} /***
+/***ADDED THIS BECAUSE THE EMAIL ADDRESS WON'T LINE UP...?***/
+
+/***STEP 6***/
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
 }
