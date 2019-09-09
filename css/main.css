@@ -120,7 +120,8 @@ h1, h2, p {
 #contact #envelope {
     /*margin: auto; /***TRIED 0 AUTO, AUTO, 0 - DOES NOTHING...?***/
     /*float: none; ***DIDN'T CHANGE ANYTHING***/
-    padding: 0 10px 0 115px;
+    /*clear: right; /***RIGHT AND BOTH DO NOTHING***/
+    padding: 0 10px 0 115px; /***WAS 0 10px 0 115px;***/
 }
 
 
@@ -132,7 +133,7 @@ h1, h2, p {
     line-height: 44px;
 }
 
-#contact #email-header{
+#contact #email-header {
     font-size: 32px;
     font-weight: 100;
     line-height: 44px;
@@ -147,21 +148,23 @@ h1, h2, p {
 }
 
 #contact a {
+    /*clear: left; ***LEFT AND BOTH DO NOTHING***/
     color: #C49075;
     /*float: ; /***FLOAT LEFT, NONE, AUTO DID NOT WORK AT ALL! MOVED EVERYTHING! */
     font-size: 28px;
     font-weight: bold;
     margin: 0;
+    /*padding: 0; ***DIDN'T CHANGE ANYTHING***/
     text-decoration: none;
 }
 
-/***
-#contact p { 
-    margin: 0 auto;
-} /***
+
+/***#contact p { 
+    clear: left; /*CLEAR LEFT AND BOTH DO NOTHING***/
+    /*margin: 0 auto;*/ /***
 /***ADDED THIS BECAUSE THE EMAIL ADDRESS WON'T LINE UP...?***/
 
-/***STEP 6***/
+/***STEP 6 - STYLE SOCIAL MEDIA ICONS***/
 
 #contact ul {
     list-style: none;
