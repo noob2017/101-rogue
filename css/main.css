@@ -28,6 +28,15 @@ body {
     width: 400px;
 }
 
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background-image: url("img/hero.png"); /***DOESN'T LOOK RIGHT; GREY COLOR TO LEFT OF IMAGE***/
+    background-color: #EBEBEB;
+    background-size: cover;
+}
+
 /***** ABOUT *****/
 /***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
 
@@ -166,3 +175,4 @@ body {
     font-size: 32px;
     padding-right: 48px;
 }
+
