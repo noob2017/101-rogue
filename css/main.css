@@ -32,10 +32,37 @@ body {
 
 header {
     height: 800px;
-    background-image: url("img/hero.png"); /***DOESN'T LOOK RIGHT; GREY COLOR TO LEFT OF IMAGE***/
+    background-image: url("img/hero.png"); /***DOESN'T LOOK RIGHT; GREY COLOR TO LEFT OF IMAGE; ALSO, IMAGE IS HARD CODED IN HTML***/
     background-color: #EBEBEB; /***READ ON https://www.w3schools.com/cssref/pr_background-image.asp THAT THIS SHOULD ALWAYS BE SPECIFIED 
     IN CASE IMAGE DOESN'T DISPLAY***/
     background-size: cover;
+}
+
+header h1 { 
+    color: #BBC085;
+    font-family:'Lora', serif;
+    padding: 65px 0 65px 25px;
+}
+
+header h2 {
+    font-family:'Lora', serif;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
 }
 
 /***** ABOUT *****/
@@ -46,7 +73,7 @@ header {
     padding: 80px 0;
 }
 
-#about .half-width { /*NOT IN THE SOLUTION CODE...**/
+#about .half-width { /*NOT IN THE SOLUTION CODE...?**/
     margin: 0 auto;
     /*padding: 20px 0; */
 }
@@ -116,12 +143,8 @@ header {
 }
 
 #contact #envelope {
-    /*margin: auto; /***TRIED 0 AUTO, AUTO, 0 - DOES NOTHING...?***/
-    /*float: none; ***DIDN'T CHANGE ANYTHING***/
-    /*clear: right; /***RIGHT AND BOTH DO NOTHING***/
-    padding: 0 10px 0 115px; /***WAS 0 10px 0 115px;***/
+    padding: 0 10px 0 115px;
 }
-
 
 /***STEP 5***/
 
@@ -146,21 +169,11 @@ header {
 }
 
 #contact a {
-    /*clear: left; ***LEFT AND BOTH DO NOTHING***/
     color: #C49075;
-    /*float: ; /***FLOAT LEFT, NONE, AUTO DID NOT WORK AT ALL! MOVED EVERYTHING! */
     font-size: 28px;
     font-weight: bold;
-    /*margin: 0;
-    /*padding: 0; ***DIDN'T CHANGE ANYTHING***/
     text-decoration: none;
 }
-
-
-/***#contact p { 
-    clear: left; /*CLEAR LEFT AND BOTH DO NOTHING***/
-    /*margin: 0 auto;*/ /***
-/***ADDED THIS BECAUSE THE EMAIL ADDRESS WON'T LINE UP...?***/
 
 /***STEP 6 - STYLE SOCIAL MEDIA ICONS***/
 
