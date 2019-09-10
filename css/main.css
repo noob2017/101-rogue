@@ -47,7 +47,6 @@ header h1 {
 header h2 {
     width: 1000px;
     clear: none; /*NOT SURE ABOUT THIS* TRIED NONE, LEFT, RIGHT, BOTH - NOTHING CHANGES THE APPEARANCE*/
-    float: left; /*ADDED THIS TO SEE IF IT FIXES THE TEXT SPACING*/
     font-family:'Lora', serif; 
     font-size: 72px;
     line-height: 80px;
