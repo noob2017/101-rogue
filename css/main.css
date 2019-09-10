@@ -45,17 +45,17 @@ header h1 {
 }
 
 header h2 {
-    width: 
-    clear: none; /*NOT SURE ABOUT THIS*/
+    width: 1000px;
+    clear: both; /*NOT SURE ABOUT THIS* TRIED NONE, LEFT, RIGHT, BOTH - NOTHING CHANGES THE APPEARANCE*/
     font-family:'Lora', serif; 
     font-size: 72px;
     line-height: 80px;
-    color: 
+    color: #9B9B9B;
     padding: 20px 0 20px 25px;
 }
 
 header h2 span {
-    color: 
+    color: #2B2B2B;
 }
 
 nav {
