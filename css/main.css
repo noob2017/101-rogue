@@ -45,7 +45,17 @@ header h1 {
 }
 
 header h2 {
-    font-family:'Lora', serif;
+    width: 
+    clear: none; /*NOT SURE ABOUT THIS*/
+    font-family:'Lora', serif; 
+    font-size: 72px;
+    line-height: 80px;
+    color: 
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span {
+    color: 
 }
 
 nav {
