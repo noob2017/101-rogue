@@ -32,7 +32,7 @@ body {
 
 header {
     height: 800px;
-    background-image: url("img/hero.png"); /***DOESN'T LOOK RIGHT; GREY COLOR TO LEFT OF IMAGE; ALSO, IMAGE IS HARD CODED IN HTML***/
+    background-image: url("../img/hero.png");
     background-color: #EBEBEB; /***READ ON https://www.w3schools.com/cssref/pr_background-image.asp THAT THIS SHOULD ALWAYS BE SPECIFIED 
     IN CASE IMAGE DOESN'T DISPLAY***/
     background-size: cover;
@@ -46,7 +46,8 @@ header h1 {
 
 header h2 {
     width: 1000px;
-    clear: both; /*NOT SURE ABOUT THIS* TRIED NONE, LEFT, RIGHT, BOTH - NOTHING CHANGES THE APPEARANCE*/
+    clear: none; /*NOT SURE ABOUT THIS* TRIED NONE, LEFT, RIGHT, BOTH - NOTHING CHANGES THE APPEARANCE*/
+    float: left; /*ADDED THIS TO SEE IF IT FIXES THE TEXT SPACING*/
     font-family:'Lora', serif; 
     font-size: 72px;
     line-height: 80px;
