@@ -1,7 +1,7 @@
 /***** BASE STYLES *****/
 
 body {
-	color: #2b2b2b;
+	color: #2B2B2B;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -18,24 +18,22 @@ body {
 
 .half-width {
     float: left;
-    margin: 0 auto; /*IS THIS NECESSARY?***/
     width: 600px;
 }
 
 .third-width {
     float: left;
-    margin: 0 auto; /*IS THIS NECESSARY?***/
     width: 400px;
 }
 
 /***** HEADER *****/
 
-header {
-    height: 800px;
+header { 
     background-image: url("../img/hero.png");
-    background-color: #EBEBEB; /***READ ON https://www.w3schools.com/cssref/pr_background-image.asp THAT THIS SHOULD ALWAYS BE SPECIFIED 
-    IN CASE IMAGE DOESN'T DISPLAY***/
+    background-color: #EBEBEB; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
+    in case image doesn't display***/
     background-size: cover;
+    height: 800px;
 }
 
 header h1 { 
@@ -45,13 +43,13 @@ header h1 {
 }
 
 header h2 {
-    width: 1000px;
-    clear: none; /*NOT SURE ABOUT THIS* TRIED NONE, LEFT, RIGHT, BOTH - NOTHING CHANGES THE APPEARANCE*/
+    color: #9B9B9B;
+    /*clear: both; /*NOT SURE ABOUT THIS* TRIED NONE, LEFT, RIGHT, BOTH - NOTHING CHANGES THE APPEARANCE*/
     font-family:'Lora', serif; 
     font-size: 72px;
     line-height: 80px;
-    color: #9B9B9B;
     padding: 20px 0 20px 25px;
+    width: 1000px;
 }
 
 header h2 span {
@@ -68,10 +66,10 @@ nav ul li{
 }
 
 nav ul li a {
+    color: #828282;
+    font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
-    color: #828282;
     padding-left: 80px; 
 }
 
@@ -79,17 +77,10 @@ nav ul li a {
 /***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
 
 #about .full-width {
-    margin: 100px auto; /*IS THIS NECESSARY? NOT IN THE SOLUTION CODE???***/
     padding: 80px 0;
 }
 
-#about .half-width { /*NOT IN THE SOLUTION CODE...?**/
-    margin: 0 auto;
-    /*padding: 20px 0; */
-}
-
 #about h2 {
-    color: #2b2b2b; /***DO I EVEN NEED THIS SINCE IT'S IN THE BODY CSS?***/
     font-family:'Lora', serif;
     font-size: 36px;
     padding-left: 50px;
