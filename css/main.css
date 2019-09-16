@@ -11,14 +11,18 @@ span, #welcome h2 {
     color: green;
 }
 
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
 /*#about, #work, #contact {
     height: 600px;
 }
 
 /***** GRID *****/
 
-/*.full-width {
-    margin: 0 auto;
+.full-width {
+    /*margin: 0 auto;*/
     width: 1200px;
 }
 
@@ -28,7 +32,12 @@ span, #welcome h2 {
 }
 
 .third-width {
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
     float: left;
+    margin: 0 auto;
+    padding: 30px;
     width: 400px;
 }
 
@@ -198,3 +207,11 @@ nav ul li a {
 }
 
 */
+
+/***** FOOTER *****/
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
