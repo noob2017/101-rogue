@@ -1,4 +1,4 @@
-/***** TEMPLATE FROM PORTFOLIO PROJECT; NEED TO CHANGE *****/
+/***** TEMPLATE FROM PORTFOLIO PROJECT; CHANGE AS NEEDED *****/
 
 /***** BASE STYLES *****/
 
@@ -42,6 +42,23 @@ h1, h2, h3 {
 }
 
 /***** HEADER *****/
+
+nav {
+    float: right; 
+    padding: 75px 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: green;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    /*padding-left: 80px; */
+}
 
 /*header { 
     background-image: url("../img/hero.png");
