@@ -2,12 +2,16 @@
 
 /***** BASE STYLES *****/
 
-/*body {
+body {
 	color: #2B2B2B;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-#about, #work, #contact {
+span, #welcome h2 {
+    color: green;
+}
+
+/*#about, #work, #contact {
     height: 600px;
 }
 
