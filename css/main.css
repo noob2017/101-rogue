@@ -1,6 +1,8 @@
+/***** TEMPLATE FROM PORTFOLIO PROJECT; NEED TO CHANGE *****/
+
 /***** BASE STYLES *****/
 
-body {
+/*body {
 	color: #2B2B2B;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -11,7 +13,7 @@ body {
 
 /***** GRID *****/
 
-.full-width {
+/*.full-width {
     margin: 0 auto;
     width: 1200px;
 }
@@ -28,11 +30,11 @@ body {
 
 /***** HEADER *****/
 
-header { 
+/*header { 
     background-image: url("../img/hero.png");
     background-color: #EBEBEB; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
     in case image doesn't display***/
-    background-size: cover;
+    /*background-size: cover;
     height: 800px;
 }
 
@@ -45,7 +47,7 @@ header h1 {
 header h2 {
     color: #9B9B9B;
     /*clear: both; /*NOT SURE ABOUT THIS* TRIED NONE, LEFT, RIGHT, BOTH - NOTHING CHANGES THE APPEARANCE*/
-    font-family:'Lora', serif; 
+    /*font-family:'Lora', serif; 
     font-size: 72px;
     line-height: 80px;
     padding: 20px 0 20px 25px;
@@ -76,7 +78,7 @@ nav ul li a {
 /***** ABOUT *****/
 /***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
 
-#about .full-width {
+/*#about .full-width {
     padding: 80px 0;
 }
 
@@ -97,7 +99,7 @@ nav ul li a {
 /***** WORK *****/
 /***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
 
-#work {
+/*#work {
     background-color: #F9CEB7;
     text-align: center;
 }
@@ -126,7 +128,7 @@ nav ul li a {
 
 /***** CONTACT *****/
 
-#contact {
+/*#contact {
     background-color: #EBEBEB;
 }   
 
@@ -149,7 +151,7 @@ nav ul li a {
 
 /***STEP 5***/
 
-#contact h2 {
+/*#contact h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     line-height: 44px;
@@ -165,7 +167,7 @@ nav ul li a {
 #contact #socialmedia-header {
     font-size: 29px;
     font-weight: bold; /***NECESSARY? IT WAS ALREADY BOLD...?***/
-    line-height: 44px;
+    /*line-height: 44px;
     margin: 40px 0 0 0;
 }
 
@@ -178,7 +180,7 @@ nav ul li a {
 
 /***STEP 6 - STYLE SOCIAL MEDIA ICONS***/
 
-#contact ul {
+/*#contact ul {
     list-style: none;
 }
 
@@ -191,3 +193,4 @@ nav ul li a {
     padding-right: 48px;
 }
 
+*/
