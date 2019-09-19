@@ -31,6 +31,10 @@ h1, h2, h3 {
     width: 600px;
 }
 
+/*.half-width nav { *** THIS DIDN'T SEEM TO AFFECT THE NAV BAR ***
+    float: right;
+}*/
+
 .third-width {
     float: left;
     margin: 20px;
@@ -128,6 +132,13 @@ nav ul li a {
 #welcome {
     border-bottom: 1px solid grey;
     
+}
+
+/***** INFO *****/
+
+#info li {
+    color: green;
+    list-style: none;
 }
 
 
