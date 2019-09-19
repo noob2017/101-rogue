@@ -35,12 +35,12 @@ h1, h2, h3 {
     float: right;
 }*/
 
-.third-width {
+/*.third-width {  *** PREVIOUSLY USED FOR THE ENTIRE SECTION ***
     float: left;
     margin: 20px;
     padding: 30px;
     width: 400px;
-}
+}*/
 
 /***** HEADER *****/
 
@@ -142,11 +142,14 @@ nav ul li a {
 /***** SPECIALS *****/
 
 #specials {
-    border-right: 1px solid grey;
+    border-right: 1px solid grey; /*** BORDER IS ONLY PARTIAL...? ***/
+    float: left;
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
 }
 
 #specials li {
-    /*border-right: 1px solid grey;*/
     color: green;
     list-style: none;
 }
@@ -154,12 +157,22 @@ nav ul li a {
 /***** REVIEWS *****/
 
 #reviews {
-    border-right: 1px solid grey;
+    border-right: 1px solid grey; /*** BORDER IS ONLY PARTIAL...? ***/
+    float: left;
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
 }
 
 
 /***** CONTACT *****/
 
+#contact {
+    float: left;
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+}
 
 /***** WORK *****/
 /***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
@@ -263,6 +276,7 @@ nav ul li a {
 /***** FOOTER *****/
 
 #footer {
+    border-top: 1px solid grey;
     clear: both;
     text-align: center;
     padding: 20px;
