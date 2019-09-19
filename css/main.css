@@ -44,6 +44,11 @@ h1, h2, h3 {
 
 /***** HEADER *****/
 
+/*#header {    *** THESE DON'T SEEM TO AFFECT THE SECTION; STILL ALL SQUISHED LEFT ***
+    margin: 25px;
+    padding-left: 75px;
+}*/
+
 nav {
     float: right; 
     padding: 75px 25px;
