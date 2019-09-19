@@ -1,5 +1,7 @@
 /***** TEMPLATE FROM PORTFOLIO PROJECT; CHANGE AS NEEDED *****/
 
+/***** HEADER NAV SPACING BROKEN AGAIN :( *****/
+
 /***** BASE STYLES *****/
 
 body {
@@ -7,7 +9,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-span, #welcome h2 {
+span, nav, #welcome h2 {
     color: green;
 }
 
@@ -19,10 +21,6 @@ header, #welcome {
     padding-left: 25px;
 }
 
-/*#about, #work, #contact {
-    height: 600px;
-}
-
 /***** GRID *****/
 
 .full-width {
@@ -30,10 +28,10 @@ header, #welcome {
     width: 1200px;
 }
 
-.half-width {
+/*.half-width {   *** REMOVED TO SEE IF IT CHANGES HEADER BAR ***
     float: left;
     width: 600px;
-}
+}*/ 
 
 /*.half-width nav { *** THIS DIDN'T SEEM TO AFFECT THE NAV BAR ***
     float: right;
@@ -57,6 +55,11 @@ header, #welcome {
     padding-left: 50px;
 } /*** THIS DIDN'T SEEM TO AFFECT THE HEADER SPACING ***/
 
+title {
+    float: left;
+    /*width: 600px;*/
+}
+
 nav {
     float: right; 
     padding: 10px 0px;
@@ -72,35 +75,6 @@ nav ul li a {
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    /*padding-left: 80px; */
-}
-
-/*header { 
-    background-image: url("../img/hero.png");
-    background-color: #EBEBEB; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
-    in case image doesn't display***/
-    /*background-size: cover;
-    height: 800px;
-}
-
-header h1 { 
-    color: #BBC085;
-    font-family:'Lora', serif;
-    padding: 65px 0 65px 25px;
-}
-
-header h2 {
-    color: #9B9B9B;
-    /*clear: both; /*NOT SURE ABOUT THIS* TRIED NONE, LEFT, RIGHT, BOTH - NOTHING CHANGES THE APPEARANCE*/
-    /*font-family:'Lora', serif; 
-    font-size: 72px;
-    line-height: 80px;
-    padding: 20px 0 20px 25px;
-    width: 1000px;
-}
-
-header h2 span {
-    color: #2B2B2B;
 }
 
 nav {
@@ -120,33 +94,11 @@ nav ul li a {
     padding-left: 80px; 
 }
 
-/***** ABOUT *****/
-/***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
-
-/*#about .full-width {
-    padding: 80px 0;
-}
-
-#about h2 {
-    font-family:'Lora', serif;
-    font-size: 36px;
-    padding-left: 50px;
-}
- 
-#about p {
-    color: #7F7F7F;
-    font-size: 21px;
-    line-height: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 /***** WELCOME *****/
 
 #welcome {
     border-bottom: 1px solid grey;
-    clear: left;
-    
+    clear: both; 
 }
 
 /***** SPECIALS *****/
@@ -154,6 +106,7 @@ nav ul li a {
 #specials {
     border-right: 1px solid grey; /*** BORDER IS ONLY PARTIAL...? ***/
     float: left;
+    height: 300px;
     margin: 20px;
     padding: 30px;
     width: 400px;
@@ -169,6 +122,7 @@ nav ul li a {
 #reviews {
     border-right: 1px solid grey; /*** BORDER IS ONLY PARTIAL...? ***/
     float: left;
+    height: 300px;
     margin: 20px;
     padding: 30px;
     width: 400px;
@@ -179,6 +133,7 @@ nav ul li a {
 
 #contact {
     float: left;
+    height: 300px;
     margin: 20px;
     padding: 30px;
     width: 400px;
@@ -187,105 +142,6 @@ nav ul li a {
 #contact p {
     line-height: 5px;
 }
-
-/***** WORK *****/
-/***WORKS IN LIVE, BUT IN DEV TOOLS SQUISHES LEFT***/
-
-/*#work {
-    background-color: #F9CEB7;
-    text-align: center;
-}
-
-#work .full-width {
-    padding: 115px 0;
-}
-
-#work img {
-    padding-bottom: 30px;
-}
-
-#work h3 {
-    font-size: 24px;
-    line-height: 32px;
-    margin: 0 auto;
-    width: 400px; 
-}
- 
-#work p {
-    font-family:'Lora', serif;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0 50px;
-}
-
-/***** CONTACT *****/
-
-/*#contact {
-    background-color: #EBEBEB;
-}   
-
-#contact .full-width {
-    padding: 110px 0;
-}
-
-#contact img#contact-img {
-    border: 12px solid #ffffff;
-    margin-left: 25px;   
-}
-
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
-}
-
-#contact #envelope {
-    padding: 0 10px 0 115px;
-}
-
-/***STEP 5***/
-
-/*#contact h2 {
-    font-family: 'Lora', serif;
-    font-size: 36px;
-    line-height: 44px;
-}
-
-#contact #email-header {
-    font-size: 32px;
-    font-weight: 100;
-    line-height: 44px;
-    margin: -30px 0 5px 0;
-}
-
-#contact #socialmedia-header {
-    font-size: 29px;
-    font-weight: bold; /***NECESSARY? IT WAS ALREADY BOLD...?***/
-    /*line-height: 44px;
-    margin: 40px 0 0 0;
-}
-
-#contact a {
-    color: #C49075;
-    font-size: 28px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-/***STEP 6 - STYLE SOCIAL MEDIA ICONS***/
-
-/*#contact ul {
-    list-style: none;
-}
-
-#contact ul li {
-     display: inline-block;
-}
-
-#contact ul img {
-    font-size: 32px;
-    padding-right: 48px;
-}
-
-*/
 
 /***** FOOTER *****/
 
