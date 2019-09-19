@@ -28,23 +28,7 @@ header, #welcome {
     width: 1200px;
 }
 
-/*.half-width {   *** REMOVED TO SEE IF IT CHANGES HEADER BAR ***
-    float: left;
-    width: 600px;
-}*/ 
-
-/*.half-width nav { *** THIS DIDN'T SEEM TO AFFECT THE NAV BAR ***
-    float: right;
-}*/
-
-/*.third-width {  *** PREVIOUSLY USED FOR THE ENTIRE SECTION ***
-    float: left;
-    margin: 20px;
-    padding: 30px;
-    width: 400px;
-}*/
-
-/***** HEADER *****/
+/***** HEADER ***** TITLE AND NAV NOT ALIGNED AGAIN :( ***/
 
 /*#header {    *** THESE DON'T SEEM TO AFFECT THE SECTION; STILL ALL SQUISHED LEFT ***
     margin: 25px;
@@ -62,7 +46,7 @@ title {
 
 nav {
     float: right; 
-    padding: 10px 0px;
+    padding: 10px;
 }
 
 nav ul li{
@@ -73,6 +57,7 @@ nav ul li{
 nav ul li a {
     color: green;
     font-size: 18px;
+    font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
 }
