@@ -15,6 +15,10 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+header, #welcome {
+    padding-left: 25px;
+}
+
 /*#about, #work, #contact {
     height: 600px;
 }
@@ -49,13 +53,18 @@ h1, h2, h3 {
     padding-left: 75px;
 }*/
 
+/*#header {  
+    padding-left: 50px;
+} /*** THIS DIDN'T SEEM TO AFFECT THE HEADER SPACING ***/
+
 nav {
     float: right; 
-    padding: 75px 25px;
+    padding: 10px 0px;
 }
 
 nav ul li{
     display: inline-block;
+    padding: 8px;
 }
 
 nav ul li a {
@@ -136,6 +145,7 @@ nav ul li a {
 
 #welcome {
     border-bottom: 1px solid grey;
+    clear: left;
     
 }
 
@@ -172,6 +182,10 @@ nav ul li a {
     margin: 20px;
     padding: 30px;
     width: 400px;
+}
+
+#contact p {
+    line-height: 5px;
 }
 
 /***** WORK *****/
