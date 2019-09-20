@@ -37,13 +37,17 @@ header, #welcome {
 
 nav {
     float: right; 
-    /*padding: 10px;*/
+    /*margin: 5px;*/
+    /*padding: 1px;*/
     width: 50%; /*600px*/
+    /*vertical-align: middle; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK BELOW ***/
 }
 
 nav ul li{
     display: inline-block;
+    /*margin: 2px;*/
     padding: 8px;
+    /*vertical-align: bottom; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK ABOVE ***/
 }
 
 nav ul li a {
@@ -52,6 +56,7 @@ nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    /*vertical-align: bottom; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK ABOVE ***/
 }
 
 /***** WELCOME *****/
