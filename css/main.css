@@ -1,5 +1,3 @@
-/***** TEMPLATE FROM PORTFOLIO PROJECT; CHANGE AS NEEDED *****/
-
 /***** HEADER NAV SPACING BROKEN AGAIN :( *****/
 
 /***** BASE STYLES *****/
@@ -23,10 +21,10 @@ header, #welcome {
 
 /***** GRID *****/
 
-.full-width {
-    /*margin: 0 auto;*/
+/*.full-width {  *** TOOK THIS OUT BECAUSE IT WAS PUSHING EVERYTHING LEFT ***
+    /*margin: 0 auto;
     width: 1200px;
-}
+}*/
 
 /***** HEADER ***** TITLE AND NAV NOT ALIGNED AGAIN :( ***/
 
