@@ -30,7 +30,7 @@ header, #welcome {
 
 /***** HEADER ***** TITLE AND NAV NOT ALIGNED AGAIN :( ***/
 
-title {
+.title {
     float: left;
     width: 50%; /*600px*/
 }
