@@ -61,14 +61,18 @@ nav ul li a {
     clear: both; 
 }
 
+#welcome p {
+    margin-bottom: 30px;
+}
+
 /***** SPECIALS *****/
 
 #specials {
     border-right: 1px solid grey; /*** BORDER IS ONLY PARTIAL...? ***/
     float: left;
-    height: 300px;
+    height: 200px;
     margin: 20px;
-    padding: 30px;
+    padding: 20px;
     width: 400px;
 }
 
@@ -82,9 +86,9 @@ nav ul li a {
 #reviews {
     border-right: 1px solid grey; /*** BORDER IS ONLY PARTIAL...? ***/
     float: left;
-    height: 300px;
+    height: 200px;
     margin: 20px;
-    padding: 30px;
+    padding: 20px;
     width: 400px;
 }
 
@@ -93,9 +97,9 @@ nav ul li a {
 
 #contact {
     float: left;
-    height: 300px;
+    height: 200px;
     margin: 20px;
-    padding: 30px;
+    padding: 20px;
     width: 400px;
 }
 
