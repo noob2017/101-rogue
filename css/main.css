@@ -30,23 +30,15 @@ header, #welcome {
 
 /***** HEADER ***** TITLE AND NAV NOT ALIGNED AGAIN :( ***/
 
-/*#header {    *** THESE DON'T SEEM TO AFFECT THE SECTION; STILL ALL SQUISHED LEFT ***
-    margin: 25px;
-    padding-left: 75px;
-}*/
-
-/*#header {  
-    padding-left: 50px;
-} /*** THIS DIDN'T SEEM TO AFFECT THE HEADER SPACING ***/
-
 title {
     float: left;
-    /*width: 600px;*/
+    width: 50%; /*600px*/
 }
 
 nav {
     float: right; 
-    padding: 10px;
+    /*padding: 10px;*/
+    width: 50%; /*600px*/
 }
 
 nav ul li{
