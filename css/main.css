@@ -68,6 +68,10 @@ nav ul li a {
     clear: both; 
 }
 
+#welcome h2 {
+    padding-top: 80px;
+}
+
 #welcome p {
     margin-bottom: 30px;
 }
