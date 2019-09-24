@@ -20,12 +20,13 @@ header, #welcome {
 /***** GRID *****/
 /**** TOOK THIS OUT BECAUSE IT WAS PUSHING EVERYTHING LEFT *** PUT IT BACK AT SHARON'S SUGGESTION :) ***/
 .full-width {  
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     overflow: auto;
     width: 1200px;
 }
 
-/***** HEADER *****/
+/***** HEADER *****/ 
+/*** ? - WHY IS THE NAV SO FAR FROM RIGHT MARGIN? ***/
 
 .title {
     float: left;
@@ -35,14 +36,12 @@ header, #welcome {
 nav {
     float: right; 
     width: 650px; /*600px*//*50% worked, but Sharon suggested not using % yet*/
-    /*vertical-align: middle; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK BELOW ***/
 }
 
-nav ul li{ /*** SEPARATE OUT THE UL AND THE LI? ***/
+nav ul li{ /*** ? - SEPARATE OUT THE UL AND THE LI? ***/
     display: inline-block;
-    padding-left: 25px; /*40px; /*** BUT NOW THE SPACING BETWEEN THE NAV LINKS IS TOO WIDE; SEEMS TO BE ATTACHED TO THE LI ***/
+    padding-left: 25px;
     padding-top: 20px;
-    /*vertical-align: bottom; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK ABOVE ***/
 }
 
 nav ul li a {
@@ -51,7 +50,6 @@ nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    /*vertical-align: bottom; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK ABOVE ***/
 }
 
 /***** WELCOME *****/
@@ -65,14 +63,15 @@ nav ul li a {
     padding-top: 80px;
 }
 
-#welcome p {
+#welcome p { /*** ? - WHY DOES THIS P EXTEND FURTHER RIGHT THAN THE NAV BAR? ***/
     margin-bottom: 30px;
 }
 
 /***** SPECIALS *****/
+/*** ? - WHY IS BORDER ONLY PARTIAL? ***/
 
 #specials {
-    border-right: 1px solid grey; /*** BORDER IS ONLY PARTIAL...? ***/
+    border-right: 1px solid grey; 
     float: left;
     height: 200px;
     margin: 20px;
@@ -86,9 +85,10 @@ nav ul li a {
 }
 
 /***** REVIEWS *****/
+/*** ? - WHY IS BORDER ONLY PARTIAL? ***/
 
 #reviews {
-    border-right: 1px solid grey; /*** BORDER IS ONLY PARTIAL...? ***/
+    border-right: 1px solid grey;
     float: left;
     height: 200px;
     margin: 20px;
@@ -112,6 +112,7 @@ nav ul li a {
 }
 
 /***** FOOTER *****/
+/*** ? - WHY IS THE FOOTER NOT CENTERED? ***/
 
 #footer {
     border-top: 1px solid grey;
