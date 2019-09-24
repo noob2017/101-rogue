@@ -18,17 +18,17 @@ header, #welcome {
 }
 
 /***** GRID *****/
-
-/*.full-width {  *** TOOK THIS OUT BECAUSE IT WAS PUSHING EVERYTHING LEFT ***
-    /*margin: 0 auto;
+/**** TOOK THIS OUT BECAUSE IT WAS PUSHING EVERYTHING LEFT *** PUT IT BACK AT SHARON'S SUGGESTION :) ***/
+.full-width {  
+    margin: 0 auto;
     width: 1200px;
-}*/
+}
 
 /***** HEADER ***** TITLE AND NAV NOT ALIGNED AGAIN :( ***/
 
 .title {
     float: left;
-    width: 50%; /*600px*/
+    width: 500px; /*600px*//*50% worked, but Sharon suggested not using % yet*/
 }
 
 nav {
@@ -36,7 +36,7 @@ nav {
     /*margin: 5px;*/
     /*padding: 1px;*/
     /*padding-left: 40px;  *** USING THIS BUMPS NAV DOWN TO NEXT LINE***/
-    width: 50%; /*600px*/
+    width: 500px; /*600px*//*50% worked, but Sharon suggested not using % yet*/
     /*vertical-align: middle; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK BELOW ***/
 }
 
@@ -44,12 +44,10 @@ nav ul li{ /*** SEPARATE OUT THE UL AND THE LI? ***/
     display: inline-block;
     /*margin: 2px;*/
     /*padding: 8px;*/
-    padding-left: 40px; /*** BUT NOW THE SPACING BETWEEN THE NAV LINKS IS TOO WIDE; SEEMS TO BE ATTACHED TO THE LI ***/
+    padding-left: 25px; /*40px; /*** BUT NOW THE SPACING BETWEEN THE NAV LINKS IS TOO WIDE; SEEMS TO BE ATTACHED TO THE LI ***/
     padding-top: 20px;
     /*vertical-align: bottom; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK ABOVE ***/
 }
-
-
 
 nav ul li a {
     color: green;
