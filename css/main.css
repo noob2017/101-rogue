@@ -34,7 +34,7 @@ header, #welcome {
 
 nav {
     float: right; 
-    width: 500px; /*600px*//*50% worked, but Sharon suggested not using % yet*/
+    width: 650px; /*600px*//*50% worked, but Sharon suggested not using % yet*/
     /*vertical-align: middle; *** DIDN'T CHANGE THE VERTICAL ALIGNMENT, EITHER IN THIS OR THE BLOCK BELOW ***/
 }
 
