@@ -13,14 +13,14 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-header, #welcome {
+/*header, #welcome { /*** REMOVED AT CAROLINE'S SUGGESTION ***
     padding-left: 25px;
-}
+}*/
 
 /***** GRID *****/
 /**** TOOK THIS OUT BECAUSE IT WAS PUSHING EVERYTHING LEFT *** PUT IT BACK AT SHARON'S SUGGESTION :) ***/
 .full-width {  
-    /*margin: 0 auto;*/
+    margin: 0 auto;
     overflow: auto;
     width: 1200px;
 }
@@ -73,10 +73,10 @@ nav ul li a {
 #specials {
     border-right: 1px solid grey; 
     float: left;
-    height: 200px;
+    height: 300px;
     margin: 20px;
     padding: 20px;
-    width: 400px;
+    width: 300px;
 }
 
 #specials li {
@@ -90,10 +90,10 @@ nav ul li a {
 #reviews {
     border-right: 1px solid grey;
     float: left;
-    height: 200px;
+    height: 300px;
     margin: 20px;
     padding: 20px;
-    width: 400px;
+    width: 300px;
 }
 
 
@@ -101,10 +101,10 @@ nav ul li a {
 
 #contact {
     float: left;
-    height: 200px;
+    height: 300px;
     margin: 20px;
     padding: 20px;
-    width: 400px;
+    width: 300px;
 }
 
 #contact p {
