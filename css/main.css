@@ -2,7 +2,7 @@
 
 body {
 	color: #2B2B2B;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 span, nav, #welcome h2 {
@@ -30,6 +30,7 @@ h1, h2, h3 {
 
 .title {
     float: left;
+    font-family: 'Montserrat 900', sans-serif;
     width: 500px; /*600px*//*50% worked, but Sharon suggested not using % yet*/
 }
 
