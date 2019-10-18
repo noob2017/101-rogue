@@ -94,14 +94,15 @@ nav ul li a {
 #specials {
     border-right: 1px solid grey; 
     float: left;
-    height: 300px;
+    height: 250px; /*300*/
     margin: 0px 20px 0px 0px;
     padding: 10px; /*20px*/
-    width: 250px;
+    width: 350px;
 }
 
 #specials li {
     color: #77a466;
+    line-height: 45px;
     list-style: none;
 }
 
@@ -110,10 +111,10 @@ nav ul li a {
 #reviews {
     border-right: 1px solid grey;
     float: left;
-    height: 300px;
+    height: 250px;
     margin: 0px;
     padding: 10px;
-    width: 500px;
+    width: 450px;
 }
 
 
@@ -121,10 +122,10 @@ nav ul li a {
 
 #contact {
     float: left;
-    height: 300px;
+    height: 250px;
     margin: 0px 0px 0px 20px;
     padding: 10px;
-    width: 250px;
+    width: 270px; /*250*/
 }
 
 #contact p {
