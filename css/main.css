@@ -1,4 +1,12 @@
 /***** BASE STYLES *****/
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local(../'Wisdom Script Regular'), /*EDITOR DOESN'T LIKE THE QUOTES. WHY?*/
+        /*local(../'Wisdom Script AJ.woff'),*/
+        url('Wisdom Script AJ.woff') format('woff');
+}
 
 body {
 	color: #2B2B2B;
@@ -13,12 +21,12 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-/*header, #welcome { /*** REMOVED AT CAROLINE'S SUGGESTION ***
+/*header, #welcome { /*** removed at Caroline's suggestion ***
     padding-left: 25px;
 }*/
 
 /***** GRID *****/
-/**** TOOK THIS OUT BECAUSE IT WAS PUSHING EVERYTHING LEFT *** PUT IT BACK AT SHARON'S SUGGESTION :) ***/
+/**** took this out because it was pushing everything left; put it back at Sharon's suggestion :) ***/
 .full-width {  
     margin: 0 auto;
     overflow: auto;
@@ -69,13 +77,14 @@ nav ul li a {
 }
 
 /***** SPECIALS *****/
-/*** ? - WHY IS BORDER ONLY PARTIAL? ***/
 
 #specials {
     border-right: 1px solid grey; 
     float: left;
     height: 300px;
     margin: 20px;
+    margin-bottom: 0px; /*fixed disconnected border lines*/
+    margin-top: 0px; /*fixed disconnected lines*/
     padding: 20px;
     width: 300px;
 }
@@ -86,13 +95,14 @@ nav ul li a {
 }
 
 /***** REVIEWS *****/
-/*** ? - WHY IS BORDER ONLY PARTIAL? ***/
 
 #reviews {
     border-right: 1px solid grey;
     float: left;
     height: 300px;
     margin: 20px;
+    margin-bottom: 0px; /*fixed disconnected border lines*/
+    margin-top: 0px; /*fixed disconnected lines*/
     padding: 20px;
     width: 300px;
 }
@@ -104,6 +114,8 @@ nav ul li a {
     float: left;
     height: 300px;
     margin: 20px;
+    margin-bottom: 0px; /*fixed disconnected border lines*/
+    margin-top: 0px; /*fixed disconnected lines*/
     padding: 20px;
     width: 300px;
 }
@@ -122,9 +134,3 @@ nav ul li a {
     padding: 20px;
 }
 
-@font-face {
-    font-family: 'Wisdom Script Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Wisdom Script Regular'), url('Wisdom Script AJ.woff') format('woff');
-}
