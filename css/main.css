@@ -3,9 +3,9 @@
     font-family: 'Wisdom Script Regular';
     font-style: normal;
     font-weight: normal;
-    src: local(../'Wisdom Script Regular'), /*EDITOR DOESN'T LIKE THE QUOTES. WHY?*/
+    src: local('../Wisdom Script Regular'), /*EDITOR DOESN'T LIKE THE QUOTES HERE. WHY?*/
         /*local(../'Wisdom Script AJ.woff'),*/
-        url('Wisdom Script AJ.woff') format('woff');
+        url('../Wisdom Script AJ.woff') format('woff');
 }
 
 body {
@@ -14,11 +14,19 @@ body {
 }
 
 span, nav, #welcome h2 {
-    color: green;
+    color: #77a466;
+}
+
+#footer span {
+    text-transform: lowercase;
 }
 
 h1, h2, h3 {
     text-transform: uppercase;
+}
+
+p { /* IS THIS EVEN DOING ANYTHING? */
+    font-weight: 600;
 }
 
 /*header, #welcome { /*** removed at Caroline's suggestion ***
@@ -39,23 +47,26 @@ h1, h2, h3 {
 .title {
     float: left;
     font-family: 'Montserrat 900', sans-serif;
+    font-weight: bold;
     width: 500px; /*600px*//*50% worked, but Sharon suggested not using % yet*/
 }
 
 nav {
     float: right; 
-    width: 650px; /*600px*//*50% worked, but Sharon suggested not using % yet*/
+    /*font-size: 10px; * THIS DOESN'T APPEAR TO CHANGE THE NAV FONT SIZE*/
+    width: 700px; /*650px*600px*//*50% worked, but Sharon suggested not using % yet*/
 }
 
 nav ul li{ /*** ? - SEPARATE OUT THE UL AND THE LI? ***/
     display: inline-block;
-    padding-left: 29px;
+    /*font-size: 10px; * THIS DOESN'T APPEAR TO CHANGE THE NAV FONT SIZE*/
+    padding-left: 29px; /*29px*/
     padding-top: 20px;
 }
 
 nav ul li a {
-    color: green;
-    font-size: 18px;
+    color: #77a466;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
@@ -69,10 +80,12 @@ nav ul li a {
 }
 
 #welcome h2 {
-    padding-top: 80px;
+    font-weight: 600;
+    padding-top: 10px; /*80px*/
 }
 
 #welcome p { /*** ? - WHY DOES THIS P EXTEND FURTHER RIGHT THAN THE NAV BAR? ***/
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
@@ -82,15 +95,13 @@ nav ul li a {
     border-right: 1px solid grey; 
     float: left;
     height: 300px;
-    margin: 20px;
-    margin-bottom: 0px; /*fixed disconnected border lines*/
-    margin-top: 0px; /*fixed disconnected lines*/
-    padding: 20px;
-    width: 300px;
+    margin: 0px 20px 0px 0px;
+    padding: 10px; /*20px*/
+    width: 250px;
 }
 
 #specials li {
-    color: green;
+    color: #77a466;
     list-style: none;
 }
 
@@ -100,11 +111,9 @@ nav ul li a {
     border-right: 1px solid grey;
     float: left;
     height: 300px;
-    margin: 20px;
-    margin-bottom: 0px; /*fixed disconnected border lines*/
-    margin-top: 0px; /*fixed disconnected lines*/
-    padding: 20px;
-    width: 300px;
+    margin: 0px;
+    padding: 10px;
+    width: 500px;
 }
 
 
@@ -113,15 +122,13 @@ nav ul li a {
 #contact {
     float: left;
     height: 300px;
-    margin: 20px;
-    margin-bottom: 0px; /*fixed disconnected border lines*/
-    margin-top: 0px; /*fixed disconnected lines*/
-    padding: 20px;
-    width: 300px;
+    margin: 0px 0px 0px 20px;
+    padding: 10px;
+    width: 250px;
 }
 
 #contact p {
-    line-height: 5px;
+    line-height: 15px;
 }
 
 /***** FOOTER *****/
